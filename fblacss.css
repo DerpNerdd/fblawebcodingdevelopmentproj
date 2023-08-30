@@ -1,0 +1,43 @@
+.header-h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(37, 37, 37);
+    text-align: left;
+}
+
+.SignIn{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(49, 49, 49); 
+}
+.FindJobs{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(49, 49, 49); 
+}
+.CompanyReviews{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(49, 49, 49); 
+}
+.FindSalaries{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(49, 49, 49); 
+}
+.Employers{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(49, 49, 49); 
+}
+
+.WhatClass{
+    size: 35px;
+    color: black;
+}
+
+.WhereClass{
+    size: 25px;
+    color: black;
+
+}
+
