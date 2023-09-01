@@ -1,43 +1,131 @@
 .header-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(37, 37, 37);
-    text-align: left;
+    width: 153px;
+    height: 33px;
+    padding: 15px 16px 0px 24px;
+    
+}
+
+.header-h1-link{
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .SignIn{
 
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(49, 49, 49); 
+    font-family: Infact;
+    color: rgb(186, 193, 255); 
+    font-size: 20px;
+    
 }
 .FindJobs{
 
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(49, 49, 49); 
+    font-family: Infact;
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+    
 }
 .CompanyReviews{
 
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(49, 49, 49); 
+    font-family: Infact; 
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
 }
 .FindSalaries{
 
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(49, 49, 49); 
+    font-family: Infact;
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
 }
 .Employers{
 
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(49, 49, 49); 
+    font-family: Infact;
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+   
+
 }
 
 .WhatClass{
     size: 35px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .WhereClass{
     size: 25px;
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(33, 33, 33);
+}
+
+@font-face{
+    font-family: Infact;
+    src: url(./fonts/AntipastoPro-Bold_trial.ttf);
+}
+
+li{
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 16px 22px 24px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: rgb(82, 96, 225);
+    border-radius: 20px;
+    transition: background-color .5s;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+div{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+  }
+
+footer{
+	/* top right bottom left*/
+	padding: 8px 288px 8px 16px;
+    color: white;
+    }
+
+input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        background-color: #c8c8c8;
+        border-radius: 15px;
+ }
+
+.button {
+        background-color: rgb(82, 96, 225);
+        box-sizing: border-box;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 30px;
+      }
+
+label{
+    font-family: Infact;
+}
