@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search | Infact</title>
+    <meta name="author" content="Alan Sanchez, Daniel Freeman">
+    <meta name=”description” content="FBLA Web Design and Development">
+    <meta property=”og:image” content="https://www.fbla-pbl.org/media/2022/09/FBLA_HorizontalLogo_cropped-01.png">
+    <meta property=”og:description” content="FBLA-PBL Logo">
+    <meta property=”og:title” content="FBLA Jobs">
+    <link rel="stylesheet" type="text/css" href="./CSS/fblacss.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<div class="navbar">
+    <a class="header-h1-link"  href="https://github.com/AlanSanchez317/fblawebdesignprojectt" title=""><img  class="header-h1" src="./CSS/LogoInfact.png" alt="Infact Logo"></a>
+    
+    <ul>
+        <li><a class="FindJobs" href="file:///C:/Users/asanch317/Desktop/FBLA/fblawebsite.html">Find Jobs</a></li>
+        <li><a class="CompanyReviews" href="file:///C:/Users/asanch317/Desktop/FBLA/fblawebsite.html">Company Reviews</a></li>
+        <li><a class="FindSalaries" href="file:///C:/Users/asanch317/Desktop/FBLA/fblawebsite.html">Find Salaries</a></li>
+        <li><a class="SignIn" href="file:///C:/Users/asanch317/Desktop/FBLA/fblawebsite.html">Sign in</a></li>
+        <li><a class="Employers" href="file:///C:/Users/asanch317/Desktop/FBLA/fblawebsite.html">Employers/Post Job</a></li>
+    </ul>
+</div>
+
+<hr class="navbar-border">
+<form>
+    <form action="" method="post">
+        <h1 style="color:white">Contact Us</h1>
+        <a href="mailto:danielfree756@gmail.com">Send us an email</a>
+        <a href="tel:6232188463">Phone (+1)623-218-8463</a>
+        <hr>
+</form>
+</form>
+<button class="accordion">I don't have an email address. Can I create an account using my phone number?
+</button>
+<div class="panel">
+  <p>At this time, Infact.com only supports sign-in using a valid email address. In the near future, however, you'll be able sign in to Infact.com using your phone number.</p>
+</div>
+
+<button class="accordion">How can I alert my manager that I will not make it into work today?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">How can I upload my resume?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">What if I want to apply for a different position?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">What is Infact?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">What if I forget my login information?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
