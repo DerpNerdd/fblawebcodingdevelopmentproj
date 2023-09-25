@@ -19,3 +19,8 @@ company.
 <br>
 Do not create live websites without permission from the community business. 
 
+# Resources
+https://hiring.amazon.com/#/ <br>
+https://www.w3schools.com/ <br>
+Mr. Bernard <br>
+https://developer.mozilla.org/en-US/ <br>
