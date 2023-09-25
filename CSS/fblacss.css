@@ -293,6 +293,8 @@ h5{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .arrange {
@@ -352,11 +354,38 @@ h5{
 
 .accinput:checked + .titles + .content {
 	opacity: 1;
-	height: 120px;
+	height: 160px;
 	font-size: 20px;
 	padding: 10px 25px;
     text-align: center;
 }
+
+.contentlist {
+    background: rgb(96, 131, 229);
+    padding: 10px 25px;
+    border: 1px solid #A7A7A7;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.accinput + .titles + .contentlist {
+	opacity: 0;
+	height: 0;
+	font-size: 0;
+	padding: 0 25px;
+	transition: ease .5s;
+    text-align: center;
+}
+
+.accinput:checked + .titles + .contentlist {
+	opacity: 1;
+	height: 300px;
+	font-size: 20px;
+	padding: 10px 25px;
+    text-align: center;
+}
+
 
 .titles{
     font-size: 32px;
@@ -405,4 +434,48 @@ h5{
     color: white;
     font-family: infact;
     font-size: 50px;
+}
+
+.joblink{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+.fblalargeborder{
+    border: none;
+    border-radius: 50px;
+}
+
+.fblajobtextcontainer{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: end;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.fblaimage{
+padding: 10px;
+padding-left: 50px;
+display: flex;
+}
+
+.fblajobintershipinfo{
+    display: flex;
+}
+
+.fblalink{
+    color: lightblue;
+    text-decoration: double;
+    font-size: larger;
+}
+
+.fblatext{
+    font-size: x-large;
 }
