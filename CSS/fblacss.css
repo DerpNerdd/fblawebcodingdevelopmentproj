@@ -479,3 +479,53 @@ display: flex;
 .fblatext{
     font-size: x-large;
 }
+
+
+.readystartedtextalign{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.readystartedtext{
+    color: white;
+}
+
+.readystarted{
+    padding: 15px 32px;
+    background-color: rgb(54, 54, 54);
+}
+
+.reasonsborderstyle{
+    color: rgb(54, 54, 54);
+    /* 500 Lines of Code */
+    width: 1150px;
+    size: 10;
+}
+
+.reasonstextalign{
+    color: white;
+    text-align: center;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #505050;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #748cc5;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6163e2;
+  }
+  
