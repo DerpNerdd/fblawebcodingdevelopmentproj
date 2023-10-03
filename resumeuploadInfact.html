@@ -26,11 +26,25 @@
         <li><a class="Employers" href="./resumeuploadInfact.html">Upload Resume</a></li>
     </ul>
 </div>
-<p>Upload your resume</p>
-
-<form action="/action_page.php">
-    <input type="file" id="myFile" name="filename">
-    <input type="submit">
+<p style="color: white; font-size: x-large; font-weight: bolder; text-align: center; font-family: Arial, Helvetica, sans-serif;">Upload your resume</p>
+<div class="form">
+  <form action="#">
+    <div class="select" style="width:200px;">
+    <select class="selectposition">
+        <option value="0">Select A Job:</option>
+        <option value="1">Receptionist</option>
+        <option value="2">Software Engineer</option>
+        <option value="3">IT Manager</option>
+      </select>
+    </div>
+    <br><br>
+    <div>
+        <input type="file" id="myFile" name="filename">
+        <br><br>
+        <input type="submit">
+    </div>
   </form>
+</div>
+
 </body>
 </html>
