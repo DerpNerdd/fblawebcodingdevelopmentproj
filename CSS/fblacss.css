@@ -297,6 +297,20 @@ h5{
     padding-right: 10px;
   }
 
+  .card2 {
+
+    /* display: flex;
+    text-align: left;
+    flex-direction: row; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .arrange {
     display: flex;
     flex-direction: row;
