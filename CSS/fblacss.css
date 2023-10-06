@@ -791,3 +791,13 @@ input[type=file]::file-selector-button {
     font-size: 15px;
     cursor: pointer;
 }
+.fblajobtextcontainer2{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: end;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
