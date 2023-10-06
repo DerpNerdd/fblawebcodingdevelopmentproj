@@ -580,3 +580,111 @@ input[type=file]::file-selector-button {
     justify-content: center;
     text-align: center;
   }
+
+.header{
+    display:flex;
+    justify-content:center;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.unda{
+    display:flex;
+    justify-content:center;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.happyworker{
+    display:flex;
+    justify-content:center;
+}
+
+/* .healthcare{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.healthcare-title{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+}
+
+.hcdiv{
+    display:flex;
+    justify-content:center;
+} */
+
+ .healthcare-ul{
+    margin-left: 2rem;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:list-item;
+    justify-content:left;
+    list-style: disc;
+    font-size: xx-large;
+} 
+
+.healthcarelists{
+    display: flex;
+    justify-content: left;
+    margin-left: 2rem;
+    color: white;
+    padding:15px;
+}
+
+.financelists{
+    display: flex;
+    justify-content: left;
+    margin-left: 2rem;
+    color: white;
+    padding:15px;
+}
+
+.finance-ul{
+    margin-left: 2rem;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:list-item;
+    justify-content:left;
+    list-style: disc;
+    font-size:xx-large;
+} 
+
+.familygettinghealthcare{
+    position:absolute;
+    left:70%;
+    top:72%;
+}
+
+.sadman{
+    position:absolute;
+    left:70%;
+    top:106%;
+}
+
+.careerlists{
+    display: flex;
+    justify-content: left;
+    margin-left: 2rem;
+    color: white;
+    padding:15px;
+}
+
+.career-ul{
+    margin-left: 2rem;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:list-item;
+    justify-content:left;
+    list-style: disc;
+    font-size:xx-large;
+} 
+
+.nerd{
+    position:absolute;
+    left:70%;
+    top:144%;
+}
