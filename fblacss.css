@@ -793,6 +793,17 @@ input[type=file]::file-selector-button {
     cursor: pointer;
 }
 
+.fblajobtextcontainer2{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: end;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+
 .daniel{
     border: none;
     border-radius: 50%;
@@ -829,3 +840,80 @@ input[type=file]::file-selector-button {
     left:67%;
 }
 
+.joblistingstitle{
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-family: infact;
+    font-size: 50px;
+  }
+  
+  .joblistingsmain{
+    text-align: center;
+    background-color: #505050;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .joblistinginfomain{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  .joboverview{
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+  }
+
+  .overviewtext{
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .buttontestoverview{
+    color: white;
+    background-color:  rgb(82, 96, 225);
+    border: none;
+    text-decoration: none;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 60px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.buttontestoverview:hover{
+    background-color: rgb(41, 48, 111);
+    transition: background-color .2s;
+}
+
+.overviewbutton{
+    text-align-last: center;
+    padding-bottom: 50px;
+}
+
+.infactjobstext{
+    color: white;
+    font-size: 20px;
+}
+
+.infactjobs{
+    padding-bottom: 10px;
+}
+
+.infactjoblinkstext{
+    color:#6163e2;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
