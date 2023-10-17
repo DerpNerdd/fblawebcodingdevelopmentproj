@@ -14,60 +14,72 @@
     
 </head>
 
-<body>
-    <div class="navbar" >
-        <a class="header-h1-link"  href="./index.html" title=""><img  class="header-h1" src="./CSS/LogoInfact.png" alt="Infact Logo"></a>
-    
-        <ul>
-            <li><a class="FindJobs" href="./fblajoblistings.html">Job Listings</a></li>
-            <li><a class="CompanyReviews" href="./">Benefits</a></li>
-            <li><a class="FindSalaries" href="./ContactUsInfact.html">Contact Us</a></li>
-            <li><a class="SignIn" href="https://github.com/AlanSanchez317/fblawebdesignprojectt">My Account</a></li>
-            <li><a class="Employers" href="./resumeuploadInfact.html">Upload Resume</a></li>
-        </ul>
-    </div>
+<div class="navbar" >
+  <a class="header-h1-link"  href="./index.html" title=""><img  class="header-h1" src="./CSS/LogoInfact.png" alt="Infact Logo"></a>
+
+  <ul>
+      <li><a class="FindJobs" href="./fblajoblistings.html">Job Listings</a></li>
+      <li><a class="CompanyReviews" href="./fblabenefits.html">Benefits</a></li>
+      <li><a class="FindSalaries" href="./ContactUsInfact.html">Contact Us</a></li>
+      <li><a class="SignIn" href="./fblaaccounts.html">My Account</a></li>
+      <li><a class="Employers" href="./resumeuploadInfact.html">Upload Resume</a></li>
+  </ul>
+</div>
     
     
     <hr class="navbar-border">
     
-    <div class="mainsearch">
-        <form  class="searchbars" >
-        <label class="WhatClass" for="what" >What: </label>
-        <input type="text" name="what" id="what" placeholder="Job Title, Keywords, Or company"><br>
-        <label class="WhereClass" for="where" >Where: </label>
-        <input type="text" name="where" id="where" placeholder="Address, Zip Code, City"><br>
-        <br>
-        <button class="button" type="button">Search</button>
-        </form>
+    <div class="joblistingsmain">
+      <h1 class="joblistingstitle" >Job Listings</h1>
     </div>
 
-    <div class="mainjobsearch">
-        <a class="Mainjoblinks" href="indeed.com">Post your resume</a>
-        <h5>-Jobs are over the horizon</h5>
-        <a class="Mainjoblinks" href="indeed.com">Employers: Post a Job</a>
-        <h5>-Say hi-hi to your new job! </h5>
+    <div class="joblistinginfomain">
+      <div class="joboverview">
+        <p>Job Overview</p>
+      </div>
+      <div class="overviewtext">
+        <p>Infact has hourly jobs for everyone. Join one of the many teams that are the dedicated workforce bringing smiles to our customers every day – an Infact Associate. Choose from a variety of roles, most with shifts and schedules that work with your life, so find the one that’s right for you and begin your Infact journey today.
+        </p>
+      </div>
+      <div class="overviewbutton">
+        <a href="./fblajoblistings.html">
+          <button class="buttontestoverview">Jobs Near You</button>
+        </a>
+      </div>
+      <div class="infactjobs">
+        <p class="infactjobstext">Infact Jobs</p>
+        <hr color="gray" width="1000px">
+      </div>
+      <div class="infactjoblinks">
+        <a class="infactjoblinkstext" href="#Receptionist">Receptionist --></a>
+        <a class="infactjoblinkstext" href="#SoftwareEngi">Software Engineer --></a>
+        <a class="infactjoblinkstext" href="#ITMang">IT Manager --></a>
+      </div>
     </div>
 
+
+    <!-- -------------------------------------------------------------- -->
     <div class="footer">
-        <div class="col-1">
-          <h3>USEFUL LINKS</h3>
-          <a href="./index.html">Home</a>
-          <a href="./fblajoblistings.html">Job Listings</a>
-          <a href="#">Benefits</a>
-          <a href="./ContactUsInfact.html">Contact Us</a>
-          <a href="./resumeuploadInfact.html">Upload Resume</a>
-        </div>
-        <div class="col-2">
-          <h3>NEWSLETTER</h3>
-          <form>
-            <input type="email" placeholder="Your Email Address" required>
-            <br>
-            <button type="submit">SUBSCRIBE NOW</button>
-          </form>
-        </div>
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="./index.html">Home</a>
+        <a href="./fblajoblistings.html">Job Listings</a>
+        <a href="./fblabenefits">Benefits</a>
+          <a href="./fblaaccounts">Account</a>
+        <a href="./ContactUsInfact.html">Contact Us</a>
+        <a href="./resumeuploadInfact.html">Upload Resume</a>
+      </div>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+          <input type="email" placeholder="Your Email Address" required>
+          <br>
+          <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
         <div class="col-3">
           <h3>CONTACT</h3>
-          <p>123, XYZ RD. <br> Pheonix, AZ</p>
+          <p>123 Huckleberry RD. <br> Pheonix, AZ</p>
           <p>&copy Infact 2023</p>
           <div class="social-icons">
             <i class="fa-brands fa-facebook"></i>
