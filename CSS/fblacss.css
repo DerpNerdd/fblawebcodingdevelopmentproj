@@ -810,6 +810,8 @@ input[type=file]::file-selector-button {
     padding-right:11rem;
     padding-left:11rem;
     padding-top:30px;
+    transition: transform .2s;
+
 }
 
 .alan{
@@ -818,6 +820,8 @@ input[type=file]::file-selector-button {
     padding-left:11rem;
     padding-right:11rem;
     padding-top:30px;
+    transition: transform .2s;
+
 }
 
 .photos{
@@ -838,6 +842,14 @@ input[type=file]::file-selector-button {
     position:relative;
     top:-150px;
     left:67%;
+}
+
+.alan:hover { 
+    transform: scale(1.1);
+}
+
+.daniel:hover { 
+    transform: scale(1.1);
 }
 
 .joblistingstitle{
