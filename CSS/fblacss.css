@@ -929,3 +929,47 @@ input[type=file]::file-selector-button {
     padding-right: 2px;
     
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.joblistingsborder{
+    border-top: 0.5px thin rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.joblistingsinfo{
+    display: flex;
+    background-color: rgb(187, 187, 187);
+}
+
+.joblistingsbottomborder{
+    border-top: 0.5px thin rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.joblistingstextcontainer{
+    color: black;
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.joblistingtext > h1{
+    font-size: 60px;
+}
+
+.jobpadding{
+    padding-top: 25px;
+}
+
+.receptionistmain{
+    text-align: center;
+    background-color: #505050;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
