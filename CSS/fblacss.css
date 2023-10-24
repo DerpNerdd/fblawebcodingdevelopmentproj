@@ -635,6 +635,7 @@ input[type=file]::file-selector-button {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 200px;
   }
 
 .header{
