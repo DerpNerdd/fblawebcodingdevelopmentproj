@@ -9,7 +9,7 @@ https://to-do.microsoft.com/tasks/sharing?InvitationToken=fd9jHY422JYz0JQLTPLE0Q
 Sharing link :3
 
 # Topic 
-A community business has approached your team and has asked you to develop a website that <br>
+A community business has approached your team and has asked you to develop a website that
 advertises open jobs at the business. The website must include the following: <br>
 • A page including information about benefits and/or reasons to work at the company. <br>
 • A page including at least three different job openings at the company. <br>
