@@ -66,10 +66,10 @@ body{
     overflow-x :hidden;
 }
 
-@font-face{
+/* @font-face{
     font-family: Infact;
     src: url(./fonts/AntipastoPro-Bold_trial.ttf);
-}
+} */
 
 li{
     display: inline;
@@ -946,7 +946,7 @@ html {
 
 .joblistingsinfo{
     display: flex;
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(59, 59, 59);
 }
 
 .joblistingsbottomborder{
@@ -955,7 +955,7 @@ html {
 }
 
 .joblistingstextcontainer{
-    color: black;
+    color: rgb(192, 225, 255);
     display: flex;
     text-align: center;
     padding-bottom: 25px;
