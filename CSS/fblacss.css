@@ -983,3 +983,22 @@ html {
     padding-top: 2px;
     padding-bottom: 2px;
 }
+
+.card3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.container2 {
+    padding: 2px 16px;
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
