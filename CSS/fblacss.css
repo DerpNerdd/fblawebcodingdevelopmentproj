@@ -1006,3 +1006,35 @@ html {
 .reasons{
     padding-bottom: 15px;
 }
+
+.resumeform{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.selectposition{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.selecttext{
+    text-align: center;
+}
+
+.resumeinput{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.resumesubmit{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
